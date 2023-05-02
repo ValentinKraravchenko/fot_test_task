@@ -240,7 +240,7 @@ def internet_club_simulation(time_start, time_end):
 
 
 if __name__ == '__main__':
-    with open('test12.txt', "r") as data:
+    with open('initial_data.txt', "r") as data:
         dataset = [line.rstrip('\n') for line in data]
     n_table, time_start, time_end, money, time_list = validation_of_input_data_and_collect_data()
     internet_club_simulation(time_start, time_end)
